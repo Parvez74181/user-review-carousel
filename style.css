@@ -1,0 +1,86 @@
+* {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main {
+          background: #1c1c1c;
+          position: relative;
+          left: 0;
+          right: 0;
+          width: 100vw;
+          height: 100vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+}
+
+main .content-box {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          padding: 1rem;
+          width: 20rem;
+          height: 20rem;
+          background: #FFBA49;
+          border-radius: 0.5rem;
+}
+
+main .content-box .image-box {
+          position: relative;
+          width: 7rem;
+          margin-top: -40px;
+          border-radius: 50%;
+}
+
+main .content-box .image-box .style {
+          position: absolute;
+          top: 0;
+          left: 3px;
+          width: 100%;
+          height: 100%;
+          border-radius: 50%;
+          background: green;
+}
+
+main .content-box .image-box img {
+          position: relative;
+          border-radius: 50%;
+          width: 100%;
+}
+
+main .content-box .content {
+          position: relative;
+          width: 100%;
+          padding: 0.5rem;
+          font-size: 1.2rem;
+}
+
+main .content-box .content .user-name {
+          text-align: center;
+          padding: 0.5rem;
+}
+
+main .content-box .content .desc {
+          text-align: center;
+}
+
+main .content-box .buttons {
+          margin-top: 1rem;
+          width: 40%;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+}
+
+main .content-box .buttons button {
+          outline: none;
+          border: none;
+          background: none;
+          font-size: 1.6rem;
+          font-weight: 900;
+          cursor: pointer;
+}
